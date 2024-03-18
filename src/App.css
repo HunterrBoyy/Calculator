@@ -1,0 +1,42 @@
+button {
+  height: 35px;
+  width: 45px;
+  border-radius: 10px;
+  border: solid #161719;
+  color: #3c88bb;
+  background: #2f3035;
+}
+
+input {
+  border-radius: 10px;
+  height: 190px;
+  border: 0px solid;
+  padding-left: 10px;
+  background: #161719;
+  color: white;
+}
+.parent {
+  border: 1px solid;
+  height: 385px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #161719;
+}
+.child {
+  border: 1px solid #05253b;
+  border-radius: 10px;
+  height: 97%;
+  padding: 7px;
+}
+.operator {
+  background: #055bab;
+}
+.calculation {
+  background: #0e8ef5;
+  color: #75d1f5;
+}
+button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
